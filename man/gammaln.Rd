@@ -12,4 +12,8 @@ gammaln(x)
 \description{
 For values larger than 12, an approximation is used.
 }
+\examples{
+gammaln(5)
+gammaln(50)
+}
 

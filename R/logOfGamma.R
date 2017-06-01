@@ -3,6 +3,8 @@
 #' Uses the approximation in Hart et al, Computer Approximations 1968.
 #'
 #' @param x A numeric value of length 1 greater than 12
+#' @examples
+#' gammaln_internal(50)
 #' @export
 
 gammaln_internal <- function(x){
@@ -31,6 +33,9 @@ gammaln_internal <- function(x){
 #' For values larger than 12, an approximation is used.
 #'
 #' @param x A numeric vector of positive numbers.
+#' @examples
+#' gammaln(5)
+#' gammaln(50)
 #' @export
 
 gammaln <- function(x){

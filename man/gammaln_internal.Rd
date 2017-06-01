@@ -12,4 +12,7 @@ gammaln_internal(x)
 \description{
 Uses the approximation in Hart et al, Computer Approximations 1968.
 }
+\examples{
+gammaln_internal(50)
+}
 
