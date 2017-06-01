@@ -10,6 +10,6 @@ gammaln_internal(x)
 \item{x}{A numeric value of length 1 greater than 12}
 }
 \description{
-Uses the approximation in Hart et al, Computer Approximations 2968.
+Uses the approximation in Hart et al, Computer Approximations 1968.
 }
 

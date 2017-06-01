@@ -1,6 +1,6 @@
 #' Computes the natural logarithm of the gamma function for values larger than 12.
 #'
-#' Uses the approximation in Hart et al, Computer Approximations 2968.
+#' Uses the approximation in Hart et al, Computer Approximations 1968.
 #'
 #' @param x A numeric value of length 1 greater than 12
 #' @export
@@ -44,3 +44,4 @@ gammaln <- function(x){
   }
   return(y)
 }
+
